@@ -1,0 +1,26 @@
+[
+  {
+    "ISBN": 9788301000001,
+    "name": "Trens",
+    "description": "book basen on real time information",
+    "publish_year": 2002,
+    "author": "John Tren",
+    "price": 20
+  },
+  {
+    "ISBN": 3788301000001,
+    "name": "Polish animals",
+    "description": "book about animals",
+    "publish_year": 2014,
+    "author": "John Doe",
+    "price": 80
+  },
+  {
+    "ISBN": "1234567890",
+    "name": "Test Book",
+    "description": "Test description",
+    "publish_year": "2022",
+    "author": "Test Author",
+    "price": 25
+  }
+]
