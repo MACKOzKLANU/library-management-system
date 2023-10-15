@@ -5,19 +5,19 @@ This program allows you to manage books stored as data in a JSON file.
 <h1>Avaiable commands: </h1>
 
 - Read all books:
-  - python3 utils.py read_json books.json
+  - python3 utils.py read_json(filename)
 - Add a new book:
-  - python3 utils.py add_book ISBN title description publish_year author price
+  - python3 utils.py add_book(ISBN, title, description, publish_year, author, price)
 - Filter books by maximum price:
-  - python3 utils.py filter_maxprice books.json price
+  - python3 utils.py filter_maxprice(filename, price)
 - Filter books by minimum price:
-  - python3 utils.py filter_minprice books.json price
+  - python3 utils.py filter_minprice(filename, price)
 - Filter books by author:
-  - python3 utils.py filter_author books.json author
+  - python3 utils.py filter_author(filename, author)
 - Filter books by minimum publication year:
-  - python3 utils.py filter_minyear books.json publication_year
+  - python3 utils.py filter_minyear(filename, publication_year)
 - Filter books by maximum publication year:
-  - python3 utils.py filter_maxyear books.json publication_year
+  - python3 utils.py filter_maxyear(filename publication_year)
 
 
 <h2>Usage Examples</h2>
